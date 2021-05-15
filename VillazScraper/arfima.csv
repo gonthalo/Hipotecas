@@ -1,33 +1,39 @@
 code;link;address;barrio;distrito;ciudad;lat;lon;price;area;has_elevator;floor;exterior;rooms
-92108754;https://www.idealista.com/inmueble/92108754/;Calle de San Pedro de Cardeña;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4750247;-3.6601331;149000;76;False;4.0;True;3
-93133635;https://www.idealista.com/inmueble/93133635/;Calle de Isla de la Gomera;Barrio Berruguete;Distrito Tetuán;Madrid;40.4612176;-3.7090021;139900;65;False;;;2
 92058112;https://www.idealista.com/inmueble/92058112/;Calle del Jazmín;Barrio Costillares;Distrito Ciudad Lineal;Madrid;40.4833363;-3.6641053;150000;75;True;;True;3
-92658995;https://www.idealista.com/inmueble/92658995/;Plaza Nuestra Señora del Tránsito;Barrio Canillas;Distrito Hortaleza;Madrid;40.4611391;-3.6503598;139000;61;False;2.0;True;2
 92218793;https://www.idealista.com/inmueble/92218793/;Calle Miosotis;Barrio Valdeacederas;Distrito Tetuán;Madrid;40.463391;-3.7040712;123500;80;;;;3
-93441860;https://www.idealista.com/inmueble/93441860/;Av. de San Luis;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.4711266;-3.6536544;150000;60;False;2.0;True;2
-92105952;https://www.idealista.com/inmueble/92105952/;"Calle de Gomeznarro, 64";Barrio Canillas;Distrito Hortaleza;Madrid;40.4601587;-3.651383;149000;61;False;3.0;True;3
-91397009;https://www.idealista.com/inmueble/91397009/;;Barrio Valdeacederas;Distrito Tetuán;Madrid;40.4703071;-3.7051434;149000;67;False;2.0;True;1
-93186056;https://www.idealista.com/inmueble/93186056/;;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;;;149000;75;False;4.0;True;3
-93084388;https://www.idealista.com/inmueble/93084388/;Calle de San Pedro de Cardeña;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4757964;-3.6620382;149000;80;True;4.0;True;3
-93483813;https://www.idealista.com/inmueble/93483813/;Avenida de San Luis;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.4707437;-3.6561999;145000;72;False;4.0;True;3
-89928575;https://www.idealista.com/inmueble/89928575/;Calle Nenúfar;Barrio Berruguete;Distrito Tetuán;Madrid;40.4613717;-3.7011407;149000;127;False;3.0;True;
+93441860;https://www.idealista.com/inmueble/93441860/;Av. de San Luis;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.4711266;-3.6536544;150000;60;False;;True;2
+91397009;https://www.idealista.com/inmueble/91397009/;;Barrio Valdeacederas;Distrito Tetuán;Madrid;40.4703071;-3.7051434;149000;67;False;;True;1
+89928575;https://www.idealista.com/inmueble/89928575/;Calle Nenúfar;Barrio Berruguete;Distrito Tetuán;Madrid;40.4613717;-3.7011407;149000;127;False;;True;
 92925714;https://www.idealista.com/inmueble/92925714/;Calle de San Raimundo;Barrio Bellas Vistas;Distrito Tetuán;Madrid;40.4517764;-3.7079514;110000;60;False;;True;1
 93118767;https://www.idealista.com/inmueble/93118767/;Calle de Sánchez Preciado;Barrio Valdezarza;Distrito Moncloa;Madrid;40.4603112;-3.7120433;140000;60;False;;True;2
 92085163;https://www.idealista.com/inmueble/92085163/;Calle de Hernani;Barrio Cuatro Caminos;Distrito Tetuán;Madrid;40.4477873;-3.7039197;125000;65;False;;True;2
-91447125;https://www.idealista.com/inmueble/91447125/;Calle de San Pedro de Cardeña;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4753278;-3.6627029;149000;74;False;4.0;True;3
+91447125;https://www.idealista.com/inmueble/91447125/;Calle de San Pedro de Cardeña;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4753278;-3.6627029;149000;74;False;;True;3
 92648039;https://www.idealista.com/inmueble/92648039/;Calle Nuestra Señora del Carmen;Barrio Berruguete;Distrito Tetuán;Madrid;40.4611617;-3.7049157;109000;109;False;;;3
 92561450;https://www.idealista.com/inmueble/92561450/;Calle Nuestra Señora del Carmen;Barrio Berruguete;Distrito Tetuán;Madrid;40.4605617;-3.7045157;109000;109;False;;True;3
-93396781;https://www.idealista.com/inmueble/93396781/;Calle Vélez Blanco;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4782204;-3.6643472;130000;61;False;3.0;True;3
+93396781;https://www.idealista.com/inmueble/93396781/;Calle Vélez Blanco;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4782204;-3.6643472;130000;61;False;;True;3
 93251350;https://www.idealista.com/inmueble/93251350/;Calle de Matilde Landa;Barrio Ventilla-Almenara;Distrito Tetuán;Madrid;;;120000;64;False;;True;2
-88780582;https://www.idealista.com/inmueble/88780582/;;Barrio Valdeacederas;Distrito Tetuán;Madrid;40.4668692;-3.7022428;101000;77;False;2.0;True;2
-91685658;https://www.idealista.com/inmueble/91685658/;"Calle de Martínez, 15";Barrio Berruguete;Distrito Tetuán;Madrid;40.4593396;-3.7033749;150000;70;False;0.5;True;2
-88311185;https://www.idealista.com/inmueble/88311185/;"Calle tenerife, 39";Barrio Bellas Vistas;Distrito Tetuán;Madrid;;;129000;65;False;;True;1
-92653468;https://www.idealista.com/inmueble/92653468/;;Barrio Canillas;Distrito Hortaleza;Madrid;40.4611587;-3.651183;149000;61;False;3.0;True;3
-92750345;https://www.idealista.com/inmueble/92750345/;"Calle Azagra, 7";Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.4748064;-3.646784;144000;60;False;4.0;True;2
-92702395;https://www.idealista.com/inmueble/92702395/;Calle de Lope de Haro;Barrio Berruguete;Distrito Tetuán;Madrid;40.4585632;-3.7015053;149000;62;;;;1
+88780582;https://www.idealista.com/inmueble/88780582/;;Barrio Valdeacederas;Distrito Tetuán;Madrid;40.4668692;-3.7022428;101000;77;False;;True;2
+92653468;https://www.idealista.com/inmueble/92653468/;;Barrio Canillas;Distrito Hortaleza;Madrid;40.4611587;-3.651183;149000;61;False;;True;3
 92551858;https://www.idealista.com/inmueble/92551858/;Calle de López de Hoyos, 397;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.4722688;-3.6503596;149000;60;False;;True;2
-93560980;https://www.idealista.com/inmueble/93560980/;Calle Mayorga;Barrio Canillas;Distrito Hortaleza;Madrid;40.4603334;-3.6529075;89000;82;True;2.0;True;3
-93615963;https://www.idealista.com/inmueble/93615963/;;Barrio Ciudad Jardín;Distrito Chamartín;Madrid;40.4464854;-3.6709707;131000;64;False;2.0;True;2
-93618709;https://www.idealista.com/inmueble/93618709/;Calle Calasparra;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.47382;-3.65673;140000;65;False;3.0;True;3
-93596085;https://www.idealista.com/inmueble/93596085/;Calle de Miranda de Arga;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;None;None;133000;62;None;5.0;None;2
-93564134;https://www.idealista.com/inmueble/93564134/;;Barrio San Pascual;Distrito Ciudad Lineal;Madrid;40.4411686;-3.6565676;80000;139;True;nan;True;2
+93615963;https://www.idealista.com/inmueble/93615963/;;Barrio Ciudad Jardín;Distrito Chamartín;Madrid;40.4464854;-3.6709707;131000;64;False;;True;2
+93511854;https://www.idealista.com/inmueble/93511854/;Calle Pinos Baja;Barrio Valdeacederas;Distrito Tetuán;Madrid;40.4667059;-3.7015804;139000;60;True;;True;1
+93628746;https://www.idealista.com/inmueble/93628746/;Plaza de Monterrey;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;None;None;150000;65;False;;True;3
+93514498;https://www.idealista.com/inmueble/93514498/;Calle Baranoa;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.4737226;-3.6388944;149000;60;False;;True;2
+93709048;https://www.idealista.com/inmueble/93709048/;Plaza Nuestra Señora del Tránsito;Barrio Canillas;Distrito Hortaleza;Madrid;40.4585113;-3.6463762;127000;60;False;;True;2
+93715006;https://www.idealista.com/inmueble/93715006/;Calle de Cervera;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;None;None;149000;60;None;;True;2
+93787529;https://www.idealista.com/inmueble/93787529/;Plaza Nuestra Señora del Tránsito;Barrio Canillas;Distrito Hortaleza;Madrid;40.4604113;-3.6489762;127300;61;False;nan;True;3
+93790066;https://www.idealista.com/inmueble/93790066/;Calle Algodonales;Barrio Berruguete;Distrito Tetuán;Madrid;40.4584689;-3.7024214;125000;60;False;nan;True;2
+93300421;https://www.idealista.com/inmueble/93300421/;Urb. Pz Nuestra Señora del Transito;Barrio Canillas;Distrito Hortaleza;Madrid;40.4614113;-3.6495762;127000;60;False;nan;None;3
+92555436;https://www.idealista.com/inmueble/92555436/;Calle Choco, 8;Urb. No;Barrio Pinar del Rey;Distrito Hortaleza;40.4738699;-3.6389431;150000;60;False;None;True;2
+93882678;https://www.idealista.com/inmueble/93882678/;Calle de Miranda de Arga;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;None;None;133000;62;None;None;None;2
+93813733;https://www.idealista.com/inmueble/93813733/;Calle Bembibre;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4741454;-3.6587732;145000;70;False;None;True;3
+93836025;https://www.idealista.com/inmueble/93836025/;Calle de Alicún;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4810108;-3.6595545;130000;69;False;None;True;2
+93968399;https://www.idealista.com/inmueble/93968399/;;Barrio Valdezarza;Distrito Moncloa;Madrid;40.4637945;-3.7100778;145000;65;False;None;True;1
+93752597;https://www.idealista.com/inmueble/93752597/;LORENZANA;Barrio Berruguete;Distrito Tetuán;Madrid;40.4569692;-3.7097665;149000;110;False;None;True;4
+94059645;https://www.idealista.com/inmueble/94059645/;SAN PEDRO DE CARDEÑA;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;40.4725274;-3.6618261;139000;70;False;None;True;2
+91064498;https://www.idealista.com/inmueble/91064498/;Calle de Ofelia Nieto;Barrio Berruguete;Distrito Tetuán;Madrid;40.4601959;-3.7081748;144400;64;False;None;True;3
+94009018;https://www.idealista.com/inmueble/94009018/;velez rubio;Barrio Apóstol Santiago;Distrito Hortaleza;Madrid;None;None;149500;65;False;None;True;3
+94042075;https://www.idealista.com/inmueble/94042075/;MAR DE KARA;Barrio Pinar del Rey;Distrito Hortaleza;Madrid;40.4750896;-3.6440814;140000;60;False;None;True;2
+93681401;https://www.idealista.com/inmueble/93681401/;Calle ARROYO;Barrio Valdeacederas;Distrito Tetuán;Madrid;40.4671944;-3.7033162;148000;72;False;None;True;3
+93830190;https://www.idealista.com/inmueble/93830190/;JUAN PANTOJA, 26;Barrio Bellas Vistas;Distrito Tetuán;Madrid;40.4503009;-3.7056553;129500;60;True;None;True;3
+89353218;https://www.idealista.com/inmueble/89353218/;Calle de Ofelia Nieto;Barrio Berruguete;Distrito Tetuán;Madrid;40.4581959;-3.7100748;144400;64;False;None;None;3

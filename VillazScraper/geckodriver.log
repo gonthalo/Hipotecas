@@ -872,3 +872,186 @@ JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code aft
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1618530536243	geckodriver	INFO	Listening on 127.0.0.1:38793
+1618530537143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4V0uIR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618530555823	Marionette	INFO	Listening on port 40349
+1618530556367	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1618530614783	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1618530761610	Marionette	INFO	Stopped listening on port 40349
+1618779191936	geckodriver	INFO	Listening on 127.0.0.1:36005
+1618779192853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledYffLc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618779209074	Marionette	INFO	Listening on port 38751
+1618779209151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1618779382347	Marionette	INFO	Stopped listening on port 38751
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619129005794	geckodriver	INFO	Listening on 127.0.0.1:59123
+1619129006938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejON5bt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619129028846	Marionette	INFO	Listening on port 34703
+1619129029576	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1619129317093	Marionette	INFO	Stopped listening on port 34703
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619735916225	geckodriver	INFO	Listening on 127.0.0.1:33559
+1619735917133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewoWs4A"
+1619735921102	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619735930826	Marionette	INFO	Listening on port 36587
+1619735930941	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1619736069732	Marionette	INFO	Stopped listening on port 36587
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619992143236	geckodriver	INFO	Listening on 127.0.0.1:46047
+1619992144116	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1fZ07K"
+1619992149351	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1619992160405	Marionette	INFO	Listening on port 41501
+1619992161192	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1619992295322	Marionette	INFO	Stopped listening on port 41501
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620335966449	geckodriver	INFO	Listening on 127.0.0.1:39113
+1620335967341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7lc3FP"
+1620335971440	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620335978580	Marionette	INFO	Listening on port 39277
+1620335978797	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1620336078862	Marionette	INFO	Stopped listening on port 39277
+1620598125990	geckodriver	INFO	Listening on 127.0.0.1:59839
+1620598126914	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileahE5ES"
+1620598131608	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620598140879	Marionette	INFO	Listening on port 39333
+1620598141193	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1620598226143	Marionette	INFO	Stopped listening on port 39333
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620936629655	geckodriver	INFO	Listening on 127.0.0.1:54717
+1620936630567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQih7xC"
+1620936635693	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620936641410	Marionette	INFO	Listening on port 42953
+1620936641517	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+JavaScript warning: https://js.datadome.co/tags.js, line 2: unreachable code after return statement
+1620936910992	Marionette	INFO	Stopped listening on port 42953
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+  Stack:
+    timedFetch/<@resource://services-common/kinto-http-client.js:549:22
+timedFetch@resource://services-common/kinto-http-client.js:527:20
+request@resource://services-common/kinto-http-client.js:613:41
+execute@resource://services-common/kinto-http-client.js:2400:44
+_fetchChangeset@resource://services-settings/RemoteSettingsClient.jsm:1038:22
+_importChanges@resource://services-settings/RemoteSettingsClient.jsm:890:20
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:595:35
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

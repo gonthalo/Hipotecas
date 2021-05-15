@@ -1,0 +1,554 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.25)  10 MAY 2021 00:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen135
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count176
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count177
+\leftroot@=\count178
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count179
+\DOTSCASE@=\count180
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count181
+\c@MaxMatrixCols=\count182
+\dotsspace@=\muskip16
+\c@parentequation=\count183
+\dspbrk@lvl=\count184
+\tag@help=\toks17
+\row@=\count185
+\column@=\count186
+\maxfields@=\count187
+\andhelp@=\toks18
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count188
+\l__pdf_internal_box=\box47
+)
+(./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count189
+\scratchdimen=\dimen146
+\scratchbox=\box48
+\nofMPsegments=\count190
+\nofMParguments=\count191
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count192
+\MPscratchDim=\dimen147
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<arfima/88780582/88780582-001.jpg, id=8, 853.1875pt x 639.38875pt>
+File: arfima/88780582/88780582-001.jpg Graphic file (type jpg)
+<use arfima/88780582/88780582-001.jpg>
+Package pdftex.def Info: arfima/88780582/88780582-001.jpg  used on input line 4
+0.
+(pdftex.def)             Requested size: 110.40253pt x 82.7332pt.
+<arfima/88780582/88780582-002.jpg, id=9, 853.1875pt x 639.38875pt>
+File: arfima/88780582/88780582-002.jpg Graphic file (type jpg)
+<use arfima/88780582/88780582-002.jpg>
+Package pdftex.def Info: arfima/88780582/88780582-002.jpg  used on input line 4
+1.
+(pdftex.def)             Requested size: 110.40253pt x 82.7332pt.
+<arfima/88780582/88780582-003.jpg, id=10, 853.1875pt x 639.38875pt>
+File: arfima/88780582/88780582-003.jpg Graphic file (type jpg)
+<use arfima/88780582/88780582-003.jpg>
+Package pdftex.def Info: arfima/88780582/88780582-003.jpg  used on input line 4
+2.
+(pdftex.def)             Requested size: 110.40253pt x 82.7332pt.
+<arfima/88780582/88780582-004.jpg, id=11, 853.1875pt x 639.38875pt>
+File: arfima/88780582/88780582-004.jpg Graphic file (type jpg)
+<use arfima/88780582/88780582-004.jpg>
+Package pdftex.def Info: arfima/88780582/88780582-004.jpg  used on input line 4
+3.
+(pdftex.def)             Requested size: 110.40253pt x 82.7332pt.
+<arfima/88780582/88780582-005.jpg, id=12, 853.1875pt x 639.38875pt>
+File: arfima/88780582/88780582-005.jpg Graphic file (type jpg)
+<use arfima/88780582/88780582-005.jpg>
+Package pdftex.def Info: arfima/88780582/88780582-005.jpg  used on input line 4
+4.
+(pdftex.def)             Requested size: 110.40253pt x 82.7332pt.
+<arfima/88780582/88780582-006.jpg, id=13, 853.1875pt x 639.38875pt>
+File: arfima/88780582/88780582-006.jpg Graphic file (type jpg)
+<use arfima/88780582/88780582-006.jpg>
+Package pdftex.def Info: arfima/88780582/88780582-006.jpg  used on input line 4
+5.
+(pdftex.def)             Requested size: 110.40253pt x 82.7332pt.
+ [2 <./arfima/88780582/88780582-001.jpg> <./arfima/88780582/88780582-002.jpg> <
+./arfima/88780582/88780582-003.jpg> <./arfima/88780582/88780582-004.jpg> <./arf
+ima/88780582/88780582-005.jpg> <./arfima/88780582/88780582-006.jpg>]
+<arfima/92218793/92218793-001.jpg, id=18, 853.1875pt x 640.3925pt>
+File: arfima/92218793/92218793-001.jpg Graphic file (type jpg)
+<use arfima/92218793/92218793-001.jpg>
+Package pdftex.def Info: arfima/92218793/92218793-001.jpg  used on input line 6
+0.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92218793/92218793-002.jpg, id=19, 853.1875pt x 640.3925pt>
+File: arfima/92218793/92218793-002.jpg Graphic file (type jpg)
+<use arfima/92218793/92218793-002.jpg>
+Package pdftex.def Info: arfima/92218793/92218793-002.jpg  used on input line 6
+1.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92218793/92218793-003.jpg, id=20, 640.3925pt x 853.1875pt>
+File: arfima/92218793/92218793-003.jpg Graphic file (type jpg)
+<use arfima/92218793/92218793-003.jpg>
+Package pdftex.def Info: arfima/92218793/92218793-003.jpg  used on input line 6
+2.
+(pdftex.def)             Requested size: 110.40253pt x 147.08386pt.
+<arfima/92218793/92218793-004.jpg, id=21, 853.1875pt x 640.3925pt>
+File: arfima/92218793/92218793-004.jpg Graphic file (type jpg)
+<use arfima/92218793/92218793-004.jpg>
+Package pdftex.def Info: arfima/92218793/92218793-004.jpg  used on input line 6
+3.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92218793/92218793-005.jpg, id=22, 853.1875pt x 640.3925pt>
+File: arfima/92218793/92218793-005.jpg Graphic file (type jpg)
+<use arfima/92218793/92218793-005.jpg>
+Package pdftex.def Info: arfima/92218793/92218793-005.jpg  used on input line 6
+4.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92218793/92218793-006.jpg, id=23, 853.1875pt x 640.3925pt>
+File: arfima/92218793/92218793-006.jpg Graphic file (type jpg)
+<use arfima/92218793/92218793-006.jpg>
+Package pdftex.def Info: arfima/92218793/92218793-006.jpg  used on input line 6
+5.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+ [3 <./arfima/92218793/92218793-001.jpg> <./arfima/92218793/92218793-002.jpg> <
+./arfima/92218793/92218793-003.jpg> <./arfima/92218793/92218793-004.jpg> <./arf
+ima/92218793/92218793-005.jpg> <./arfima/92218793/92218793-006.jpg>]
+<arfima/92925714/92925714-001.jpg, id=27, 853.1875pt x 640.3925pt>
+File: arfima/92925714/92925714-001.jpg Graphic file (type jpg)
+<use arfima/92925714/92925714-001.jpg>
+Package pdftex.def Info: arfima/92925714/92925714-001.jpg  used on input line 8
+0.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92925714/92925714-002.jpg, id=28, 853.1875pt x 640.3925pt>
+File: arfima/92925714/92925714-002.jpg Graphic file (type jpg)
+<use arfima/92925714/92925714-002.jpg>
+Package pdftex.def Info: arfima/92925714/92925714-002.jpg  used on input line 8
+1.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92925714/92925714-003.jpg, id=29, 853.1875pt x 640.3925pt>
+File: arfima/92925714/92925714-003.jpg Graphic file (type jpg)
+<use arfima/92925714/92925714-003.jpg>
+Package pdftex.def Info: arfima/92925714/92925714-003.jpg  used on input line 8
+2.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92925714/92925714-004.jpg, id=30, 853.1875pt x 640.3925pt>
+File: arfima/92925714/92925714-004.jpg Graphic file (type jpg)
+<use arfima/92925714/92925714-004.jpg>
+Package pdftex.def Info: arfima/92925714/92925714-004.jpg  used on input line 8
+3.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92925714/92925714-005.jpg, id=31, 640.3925pt x 853.1875pt>
+File: arfima/92925714/92925714-005.jpg Graphic file (type jpg)
+<use arfima/92925714/92925714-005.jpg>
+Package pdftex.def Info: arfima/92925714/92925714-005.jpg  used on input line 8
+4.
+(pdftex.def)             Requested size: 110.40253pt x 147.08386pt.
+<arfima/92925714/92925714-006.jpg, id=32, 640.3925pt x 853.1875pt>
+File: arfima/92925714/92925714-006.jpg Graphic file (type jpg)
+<use arfima/92925714/92925714-006.jpg>
+Package pdftex.def Info: arfima/92925714/92925714-006.jpg  used on input line 8
+5.
+(pdftex.def)             Requested size: 110.40253pt x 147.08386pt.
+ [4 <./arfima/92925714/92925714-001.jpg> <./arfima/92925714/92925714-002.jpg> <
+./arfima/92925714/92925714-003.jpg> <./arfima/92925714/92925714-004.jpg> <./arf
+ima/92925714/92925714-005.jpg> <./arfima/92925714/92925714-006.jpg>]
+<arfima/93084388/93084388-001.jpg, id=36, 853.1875pt x 479.7925pt>
+File: arfima/93084388/93084388-001.jpg Graphic file (type jpg)
+<use arfima/93084388/93084388-001.jpg>
+Package pdftex.def Info: arfima/93084388/93084388-001.jpg  used on input line 1
+00.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/93084388/93084388-002.jpg, id=37, 853.1875pt x 479.7925pt>
+File: arfima/93084388/93084388-002.jpg Graphic file (type jpg)
+<use arfima/93084388/93084388-002.jpg>
+Package pdftex.def Info: arfima/93084388/93084388-002.jpg  used on input line 1
+01.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/93084388/93084388-003.jpg, id=38, 853.1875pt x 479.7925pt>
+File: arfima/93084388/93084388-003.jpg Graphic file (type jpg)
+<use arfima/93084388/93084388-003.jpg>
+Package pdftex.def Info: arfima/93084388/93084388-003.jpg  used on input line 1
+02.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/93084388/93084388-004.jpg, id=39, 853.1875pt x 479.7925pt>
+File: arfima/93084388/93084388-004.jpg Graphic file (type jpg)
+<use arfima/93084388/93084388-004.jpg>
+Package pdftex.def Info: arfima/93084388/93084388-004.jpg  used on input line 1
+03.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/93084388/93084388-005.jpg, id=40, 853.1875pt x 479.7925pt>
+File: arfima/93084388/93084388-005.jpg Graphic file (type jpg)
+<use arfima/93084388/93084388-005.jpg>
+Package pdftex.def Info: arfima/93084388/93084388-005.jpg  used on input line 1
+04.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/93084388/93084388-006.jpg, id=41, 853.1875pt x 479.7925pt>
+File: arfima/93084388/93084388-006.jpg Graphic file (type jpg)
+<use arfima/93084388/93084388-006.jpg>
+Package pdftex.def Info: arfima/93084388/93084388-006.jpg  used on input line 1
+05.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+ [5 <./arfima/93084388/93084388-001.jpg> <./arfima/93084388/93084388-002.jpg> <
+./arfima/93084388/93084388-003.jpg> <./arfima/93084388/93084388-004.jpg> <./arf
+ima/93084388/93084388-005.jpg> <./arfima/93084388/93084388-006.jpg>] [6]
+<arfima/93836025/93836025-001.jpg, id=48, 853.1875pt x 640.3925pt>
+File: arfima/93836025/93836025-001.jpg Graphic file (type jpg)
+<use arfima/93836025/93836025-001.jpg>
+Package pdftex.def Info: arfima/93836025/93836025-001.jpg  used on input line 1
+34.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/93836025/93836025-002.jpg, id=49, 853.1875pt x 640.3925pt>
+File: arfima/93836025/93836025-002.jpg Graphic file (type jpg)
+<use arfima/93836025/93836025-002.jpg>
+Package pdftex.def Info: arfima/93836025/93836025-002.jpg  used on input line 1
+35.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/93836025/93836025-003.jpg, id=50, 853.1875pt x 640.3925pt>
+File: arfima/93836025/93836025-003.jpg Graphic file (type jpg)
+<use arfima/93836025/93836025-003.jpg>
+Package pdftex.def Info: arfima/93836025/93836025-003.jpg  used on input line 1
+36.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/93836025/93836025-004.jpg, id=51, 640.3925pt x 853.1875pt>
+File: arfima/93836025/93836025-004.jpg Graphic file (type jpg)
+<use arfima/93836025/93836025-004.jpg>
+Package pdftex.def Info: arfima/93836025/93836025-004.jpg  used on input line 1
+37.
+(pdftex.def)             Requested size: 110.40253pt x 147.08386pt.
+<arfima/93836025/93836025-005.jpg, id=52, 853.1875pt x 640.3925pt>
+File: arfima/93836025/93836025-005.jpg Graphic file (type jpg)
+<use arfima/93836025/93836025-005.jpg>
+Package pdftex.def Info: arfima/93836025/93836025-005.jpg  used on input line 1
+38.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/93836025/93836025-006.jpg, id=53, 853.1875pt x 640.3925pt>
+File: arfima/93836025/93836025-006.jpg Graphic file (type jpg)
+<use arfima/93836025/93836025-006.jpg>
+Package pdftex.def Info: arfima/93836025/93836025-006.jpg  used on input line 1
+39.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+
+[7 <./arfima/93836025/93836025-001.jpg> <./arfima/93836025/93836025-002.jpg> <.
+/arfima/93836025/93836025-003.jpg> <./arfima/93836025/93836025-004.jpg> <./arfi
+ma/93836025/93836025-005.jpg> <./arfima/93836025/93836025-006.jpg>]
+<arfima/92085163/92085163-001.jpg, id=58, 853.1875pt x 569.12625pt>
+File: arfima/92085163/92085163-001.jpg Graphic file (type jpg)
+<use arfima/92085163/92085163-001.jpg>
+Package pdftex.def Info: arfima/92085163/92085163-001.jpg  used on input line 1
+54.
+(pdftex.def)             Requested size: 110.40253pt x 73.64163pt.
+<arfima/92085163/92085163-002.jpg, id=59, 853.1875pt x 569.12625pt>
+File: arfima/92085163/92085163-002.jpg Graphic file (type jpg)
+<use arfima/92085163/92085163-002.jpg>
+Package pdftex.def Info: arfima/92085163/92085163-002.jpg  used on input line 1
+55.
+(pdftex.def)             Requested size: 110.40253pt x 73.64163pt.
+<arfima/92085163/92085163-003.jpg, id=60, 853.1875pt x 569.12625pt>
+File: arfima/92085163/92085163-003.jpg Graphic file (type jpg)
+<use arfima/92085163/92085163-003.jpg>
+Package pdftex.def Info: arfima/92085163/92085163-003.jpg  used on input line 1
+56.
+(pdftex.def)             Requested size: 110.40253pt x 73.64163pt.
+<arfima/92085163/92085163-004.jpg, id=61, 853.1875pt x 569.12625pt>
+File: arfima/92085163/92085163-004.jpg Graphic file (type jpg)
+<use arfima/92085163/92085163-004.jpg>
+Package pdftex.def Info: arfima/92085163/92085163-004.jpg  used on input line 1
+57.
+(pdftex.def)             Requested size: 110.40253pt x 73.64163pt.
+<arfima/92085163/92085163-005.jpg, id=62, 853.1875pt x 569.12625pt>
+File: arfima/92085163/92085163-005.jpg Graphic file (type jpg)
+<use arfima/92085163/92085163-005.jpg>
+Package pdftex.def Info: arfima/92085163/92085163-005.jpg  used on input line 1
+58.
+(pdftex.def)             Requested size: 110.40253pt x 73.64163pt.
+<arfima/92085163/92085163-006.jpg, id=63, 853.1875pt x 569.12625pt>
+File: arfima/92085163/92085163-006.jpg Graphic file (type jpg)
+<use arfima/92085163/92085163-006.jpg>
+Package pdftex.def Info: arfima/92085163/92085163-006.jpg  used on input line 1
+59.
+(pdftex.def)             Requested size: 110.40253pt x 73.64163pt.
+ [8 <./arfima/92085163/92085163-001.jpg> <./arfima/92085163/92085163-002.jpg> <
+./arfima/92085163/92085163-003.jpg> <./arfima/92085163/92085163-004.jpg> <./arf
+ima/92085163/92085163-005.jpg> <./arfima/92085163/92085163-006.jpg>]
+<arfima/92108754/92108754-001.jpg, id=67, 853.1875pt x 479.7925pt>
+File: arfima/92108754/92108754-001.jpg Graphic file (type jpg)
+<use arfima/92108754/92108754-001.jpg>
+Package pdftex.def Info: arfima/92108754/92108754-001.jpg  used on input line 1
+74.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/92108754/92108754-002.jpg, id=68, 853.1875pt x 479.7925pt>
+File: arfima/92108754/92108754-002.jpg Graphic file (type jpg)
+<use arfima/92108754/92108754-002.jpg>
+Package pdftex.def Info: arfima/92108754/92108754-002.jpg  used on input line 1
+75.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/92108754/92108754-003.jpg, id=69, 853.1875pt x 479.7925pt>
+File: arfima/92108754/92108754-003.jpg Graphic file (type jpg)
+<use arfima/92108754/92108754-003.jpg>
+Package pdftex.def Info: arfima/92108754/92108754-003.jpg  used on input line 1
+76.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/92108754/92108754-004.jpg, id=70, 853.1875pt x 479.7925pt>
+File: arfima/92108754/92108754-004.jpg Graphic file (type jpg)
+<use arfima/92108754/92108754-004.jpg>
+Package pdftex.def Info: arfima/92108754/92108754-004.jpg  used on input line 1
+77.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/92108754/92108754-005.jpg, id=71, 853.1875pt x 479.7925pt>
+File: arfima/92108754/92108754-005.jpg Graphic file (type jpg)
+<use arfima/92108754/92108754-005.jpg>
+Package pdftex.def Info: arfima/92108754/92108754-005.jpg  used on input line 1
+78.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+<arfima/92108754/92108754-006.jpg, id=72, 853.1875pt x 479.7925pt>
+File: arfima/92108754/92108754-006.jpg Graphic file (type jpg)
+<use arfima/92108754/92108754-006.jpg>
+Package pdftex.def Info: arfima/92108754/92108754-006.jpg  used on input line 1
+79.
+(pdftex.def)             Requested size: 110.40253pt x 62.08237pt.
+ [9 <./arfima/92108754/92108754-001.jpg> <./arfima/92108754/92108754-002.jpg> <
+./arfima/92108754/92108754-003.jpg> <./arfima/92108754/92108754-004.jpg> <./arf
+ima/92108754/92108754-005.jpg> <./arfima/92108754/92108754-006.jpg>]
+<arfima/92058112/92058112-001.jpg, id=76, 853.1875pt x 640.3925pt>
+File: arfima/92058112/92058112-001.jpg Graphic file (type jpg)
+<use arfima/92058112/92058112-001.jpg>
+Package pdftex.def Info: arfima/92058112/92058112-001.jpg  used on input line 1
+94.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92058112/92058112-002.jpg, id=77, 853.1875pt x 640.3925pt>
+File: arfima/92058112/92058112-002.jpg Graphic file (type jpg)
+<use arfima/92058112/92058112-002.jpg>
+Package pdftex.def Info: arfima/92058112/92058112-002.jpg  used on input line 1
+95.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92058112/92058112-003.jpg, id=78, 853.1875pt x 640.3925pt>
+File: arfima/92058112/92058112-003.jpg Graphic file (type jpg)
+<use arfima/92058112/92058112-003.jpg>
+Package pdftex.def Info: arfima/92058112/92058112-003.jpg  used on input line 1
+96.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92058112/92058112-004.jpg, id=79, 853.1875pt x 640.3925pt>
+File: arfima/92058112/92058112-004.jpg Graphic file (type jpg)
+<use arfima/92058112/92058112-004.jpg>
+Package pdftex.def Info: arfima/92058112/92058112-004.jpg  used on input line 1
+97.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92058112/92058112-005.jpg, id=80, 853.1875pt x 640.3925pt>
+File: arfima/92058112/92058112-005.jpg Graphic file (type jpg)
+<use arfima/92058112/92058112-005.jpg>
+Package pdftex.def Info: arfima/92058112/92058112-005.jpg  used on input line 1
+98.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/92058112/92058112-006.jpg, id=81, 853.1875pt x 640.3925pt>
+File: arfima/92058112/92058112-006.jpg Graphic file (type jpg)
+<use arfima/92058112/92058112-006.jpg>
+Package pdftex.def Info: arfima/92058112/92058112-006.jpg  used on input line 1
+99.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+ [10 <./arfima/92058112/92058112-001.jpg> <./arfima/92058112/92058112-002.jpg> 
+<./arfima/92058112/92058112-003.jpg> <./arfima/92058112/92058112-004.jpg> <./ar
+fima/92058112/92058112-005.jpg> <./arfima/92058112/92058112-006.jpg>]
+<arfima/91447125/91447125-001.jpg, id=85, 853.1875pt x 640.3925pt>
+File: arfima/91447125/91447125-001.jpg Graphic file (type jpg)
+<use arfima/91447125/91447125-001.jpg>
+Package pdftex.def Info: arfima/91447125/91447125-001.jpg  used on input line 2
+14.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/91447125/91447125-002.jpg, id=86, 853.1875pt x 640.3925pt>
+File: arfima/91447125/91447125-002.jpg Graphic file (type jpg)
+<use arfima/91447125/91447125-002.jpg>
+Package pdftex.def Info: arfima/91447125/91447125-002.jpg  used on input line 2
+15.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/91447125/91447125-003.jpg, id=87, 853.1875pt x 640.3925pt>
+File: arfima/91447125/91447125-003.jpg Graphic file (type jpg)
+<use arfima/91447125/91447125-003.jpg>
+Package pdftex.def Info: arfima/91447125/91447125-003.jpg  used on input line 2
+16.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/91447125/91447125-004.jpg, id=88, 853.1875pt x 640.3925pt>
+File: arfima/91447125/91447125-004.jpg Graphic file (type jpg)
+<use arfima/91447125/91447125-004.jpg>
+Package pdftex.def Info: arfima/91447125/91447125-004.jpg  used on input line 2
+17.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/91447125/91447125-005.jpg, id=89, 853.1875pt x 640.3925pt>
+File: arfima/91447125/91447125-005.jpg Graphic file (type jpg)
+<use arfima/91447125/91447125-005.jpg>
+Package pdftex.def Info: arfima/91447125/91447125-005.jpg  used on input line 2
+18.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+<arfima/91447125/91447125-006.jpg, id=90, 853.1875pt x 640.3925pt>
+File: arfima/91447125/91447125-006.jpg Graphic file (type jpg)
+<use arfima/91447125/91447125-006.jpg>
+Package pdftex.def Info: arfima/91447125/91447125-006.jpg  used on input line 2
+19.
+(pdftex.def)             Requested size: 110.40253pt x 82.86308pt.
+ [11 <./arfima/91447125/91447125-001.jpg> <./arfima/91447125/91447125-002.jpg> 
+<./arfima/91447125/91447125-003.jpg> <./arfima/91447125/91447125-004.jpg> <./ar
+fima/91447125/91447125-005.jpg> <./arfima/91447125/91447125-006.jpg>] (./report
+.aux) ) 
+Here is how much of TeX's memory you used:
+ 2640 strings out of 483183
+ 40389 string characters out of 5966292
+ 260167 words of memory out of 5000000
+ 17599 multiletter control sequences out of 15000+600000
+ 535583 words of font info for 37 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 30i,7n,27p,223b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/gonthalo/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm
+1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on report.pdf (11 pages, 3554596 bytes).
+PDF statistics:
+ 107 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+

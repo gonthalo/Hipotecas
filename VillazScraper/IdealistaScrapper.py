@@ -18,7 +18,7 @@ import time, sys
 #                       ╚═╗│  ├┬┘├─┤├─┘├┤ ├┬┘   ║ │ │├┤ ├─┤│  │└─┐ │ ├─┤
 #                       ╚═╝└─┘┴└─┴ ┴┴  └─┘┴└─   ╩ ┴─┘└─┘┴ ┴┴─┘┴└─┘ ┴ ┴ ┴
 #
-#
+#  python3 IdealistaScrapper.py --zona arfima --full 1
 #
 #
 # Fields in list scraper = price,area,has_elevator,floor,exterior,rooms
@@ -206,7 +206,7 @@ class IdealistaScrapper:
 		try:
 			driver.get(vivienda.link)
 			driver.implicitly_wait(4)
-			time.sleep(2)
+			time.sleep(10)
 			while "https://geo.captcha-delivery.com/captcha" in driver.page_source:
 				time.sleep(20)
 			# driver.set_page_load_timeout(20)
@@ -217,7 +217,14 @@ class IdealistaScrapper:
 			vivienda.distrito = ubication_data[2]
 			vivienda.ciudad = ubication_data[3]
 			vivienda.lat, vivienda.lon = Map(driver).get_lat_lon()
-			images = Images(driver, vivienda.code).get_images()
+			try:
+				images = Images(driver, vivienda.code).get_images()
+			except:
+				print ('Failed to get images, retrying after captcha...')
+				while "https://geo.captcha-delivery.com/captcha" in driver.page_source:
+					time.sleep(20)
+				images = Images(driver, vivienda.code).get_images()
+
 		except common.exceptions.WebDriverException as ex:
 			print(ex)
 			print(vivienda.link)
