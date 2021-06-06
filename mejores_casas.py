@@ -42,7 +42,7 @@ def parse_images(objetivo, best):
 					with open("%s/%s/%s-%03d.jpg"%(objetivo,casa,casa,ii), "wb") as f:
 						f.write(r.read())
 
-def generate_report(objetivo = 'arfima'):
+def generate_report(objetivo = 'arfima2'):
 	casas = get_saved_houses('VillazScraper/%s.csv'%objetivo)
 	best = sorted(casas.keys(), key = lambda x: chachicidad(casas[x]))
 	best = [el for el in best if el not in blacklist]
@@ -63,10 +63,17 @@ def generate_report(objetivo = 'arfima'):
 	txt = txt[:x] + txt[y:]
 	reportes = ''
 	for code in best[:10]:
+		if len(casas[code]['address']) < 3:
+			casas[code]['address'] = '[...]'
 		pagina = reportecillo
 		pagina = pagina.replace('92058112', code)
 		pagina = pagina.replace('Direccion', casas[code]['address'])
+		pagina = pagina.replace('Barrio', casas[code]['barrio'])
+		pagina = pagina.replace('Distrito', casas[code]['distrito'])
 		pagina = pagina.replace('123456', casas[code]['price'])
+		pagina = pagina.replace('789', casas[code]['area'])
+		pagina = pagina.replace('4321', '%.2f'%chachicidad(casas[code]))
+		pagina = pagina.replace('Esta kelly es la puta hostia!', casas[code]['anuncio'])
 		for a,b,c in os.walk('%s/%s'%(objetivo,code)):
 			pass
 		n_images = len(c)
@@ -79,11 +86,11 @@ def generate_report(objetivo = 'arfima'):
 			pagina = pagina.replace('%% IMAGENES DE LA CASA', imagenes)
 		reportes = reportes + pagina
 	txt = txt[:x] + reportes + txt[x:]
-	f = open('report.tex', 'w')
+	f = open('report_%s.tex'%objetivo, 'w')
 	f.write(txt)
 	f.close()
 
 if __name__ == "__main__":
-	generate_report(objetivo = 'arfima')
+	generate_report(objetivo = 'arfima2')
 
 

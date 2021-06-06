@@ -18,6 +18,7 @@ class Vivienda(object):
     floor = None
     exterior = None
     rooms = None
+    anuncio = None
 
     def __init__(self, dictionary=None):
         """
@@ -40,6 +41,7 @@ class Vivienda(object):
             self.floor = dictionary['floor'] if 'floor' in dictionary else None
             self.exterior = dictionary['exterior'] if 'exterior' in dictionary else None
             self.rooms = dictionary['rooms'] if 'rooms' in dictionary else None
+            self.anuncio = dictionary['anuncio'] if 'anuncio' in dictionary else None
 
     def to_dict(self):
         """
@@ -59,4 +61,5 @@ class Vivienda(object):
                 'has_elevator': self.has_elevator,
                 'floor': self.floor,
                 'exterior': self.exterior,
-                'rooms': self.rooms}
+                'rooms': self.rooms,
+                'anuncio': self.anuncio}

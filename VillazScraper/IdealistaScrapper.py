@@ -12,7 +12,7 @@ from map import Map
 from images import Images
 from datetime import datetime
 import argparse
-import time, sys
+import time, sys, os
 
 #                       ╔═╗┌─┐┬─┐┌─┐┌─┐┌─┐┬─┐   ╦┌┬─┐┌─┐┌─┐┬  ┬┌─┐┌┬┐┌─┐
 #                       ╚═╗│  ├┬┘├─┤├─┘├┤ ├┬┘   ║ │ │├┤ ├─┤│  │└─┐ │ ├─┤
@@ -58,7 +58,9 @@ class IdealistaScrapper:
 		self.file_name = name + ".csv"
 		self.file_images_name = name + "_images.csv"
 
-	def get_saved_houses(self): # Lee la info de casas ya descargada del archivo correspondiente. La 
+	def get_saved_houses(self): # Lee la info de casas ya descargada del archivo correspondiente. 
+		if not os.path.exists(self.file_name):
+			return {}
 		f = open(self.file_name, 'r')
 		lines = [el.split(';') for el in f.read().split('\n')]
 		fields = lines[0]
@@ -107,7 +109,7 @@ class IdealistaScrapper:
 					print ('House no longer available:', code)
 					houses.pop(code)
 			with open(self.file_name, 'w') as f:
-				header = 'code;link;address;barrio;distrito;ciudad;lat;lon;price;area;has_elevator;floor;exterior;rooms'
+				header = 'code;link;address;barrio;distrito;ciudad;lat;lon;price;area;has_elevator;floor;exterior;rooms;anuncio'
 				# print (houses)
 				# import pdb; pdb.set_trace()
 				f.write(header+'\n'+ '\n'.join([';'.join([houses[key][field] for field in header.split(';')]) for key in houses.keys()]))
@@ -125,7 +127,9 @@ class IdealistaScrapper:
 		"""
 
 		if driver == None:
-			driver = webdriver.Firefox(executable_path=r'/home/gonthalo/.jaquersoft/Hipotecas/geckodriver')
+			pwd = os.getcwd()
+			pwd = pwd[:pwd.find('Hipotecas')+9]
+			driver = webdriver.Firefox(executable_path=(pwd+'/geckodriver'))
 			driver.get(url)
 			driver.implicitly_wait(10)# Por defecto se esperan 10 segundos para cargar los componentes.
 			# time.sleep(140)
@@ -163,7 +167,6 @@ class IdealistaScrapper:
 		:return:
 		"""
 		info = article.find_element_by_class_name('item-info-container')
-
 		vivienda = Vivienda()
 		vivienda.link = info.find_element_by_class_name('item-link').get_attribute('href')
 		vivienda.code = vivienda.link.split('/')[-2]
@@ -201,8 +204,6 @@ class IdealistaScrapper:
 		:return: Tupla con primer elemento de vivienda y segundo elemento como un dataframe de imagenes.
 		"""
 		images = None
-		# Creamos un nuevo driver para impedir que idealista nos bloquee al pensar que somos un bot.
-		# driver = webdriver.Firefox(executable_path=r'/home/gonthalo/.jaquersoft/Hipotecas/geckodriver')
 		try:
 			driver.get(vivienda.link)
 			driver.implicitly_wait(4)
@@ -210,16 +211,46 @@ class IdealistaScrapper:
 			while "https://geo.captcha-delivery.com/captcha" in driver.page_source:
 				time.sleep(20)
 			# driver.set_page_load_timeout(20)
-			ubication = driver.find_element_by_id('mapWrapper')
-			ubication_data = [i.text for i in ubication.find_elements_by_tag_name('li')]
-			vivienda.address = ubication_data[0]
-			vivienda.barrio = ubication_data[1]
-			vivienda.distrito = ubication_data[2]
-			vivienda.ciudad = ubication_data[3]
-			vivienda.lat, vivienda.lon = Map(driver).get_lat_lon()
+			try:
+				ubication = driver.find_element_by_id('mapWrapper')
+				ubication_data = [i.text for i in ubication.find_elements_by_tag_name('li')]
+				vivienda.address = ubication_data[0]
+				vivienda.barrio = ubication_data[1]
+				vivienda.distrito = ubication_data[2]
+				vivienda.ciudad = ubication_data[3]
+				vivienda.lat, vivienda.lon = Map(driver).get_lat_lon()
+			except:
+				print ('Failed getting the location of house, retrying after captcha...')
+				while "https://geo.captcha-delivery.com/captcha" in driver.page_source:
+					time.sleep(20)
+				ubication = driver.find_element_by_id('mapWrapper')
+				ubication_data = [i.text for i in ubication.find_elements_by_tag_name('li')]
+				vivienda.address = ubication_data[0]
+				vivienda.barrio = ubication_data[1]
+				vivienda.distrito = ubication_data[2]
+				vivienda.ciudad = ubication_data[3]
+				vivienda.lat, vivienda.lon = Map(driver).get_lat_lon()
+
+			txt = driver.page_source
+			if '<div class="commentsContainer' not in txt:
+				print ('Did not find the ad description :V')
+			txt = txt[txt.find('<div class="commentsContainer'):]
+			txt = txt[txt.find('>'):]
+			txt = txt[txt.find('<div class="comment"'):]
+			txt = txt[txt.find('<p'):]
+			txt = txt[txt.find('>')+1:]
+			anuncio = txt[:txt.find('</p>')]
+			anuncio = anuncio.replace('\n', ' ').replace('<br>', ' ').replace('  ', ' ')
+			print ('Anuncio:',repr(anuncio))
+			# import pdb; pdb.set_trace()
+			vivienda.anuncio = anuncio
+
 			try:
 				images = Images(driver, vivienda.code).get_images()
 			except:
+				print ('Calling "get_images" function failed...')
+				images = None
+			if images == None:
 				print ('Failed to get images, retrying after captcha...')
 				while "https://geo.captcha-delivery.com/captcha" in driver.page_source:
 					time.sleep(20)
@@ -239,11 +270,12 @@ if __name__ == '__main__':
 	# xaux = element.find_element_by_css_selector("li[data-value='150000']")
 	# xaux.click()
 	#https://www.idealista.com/areas/venta-viviendas/con-precio-hasta_150000,metros-cuadrados-mas-de_60/?shape=%28%28cz%7BuF%7CltUckBuWg%7BAgnFpYqwDpbEefChg%40bvE%7BNliIem%40be%40%29%29
-	dic = {'arfima':'con-precio-hasta_150000,metros-cuadrados-mas-de_60/?shape=((cz{uF|ltUckBuWg{AgnFpYqwDpbEefChg%40bvE{NliIem%40be%40))'}
+	dic = {'arfima':'con-precio-hasta_150000,metros-cuadrados-mas-de_60/?shape=((cz{uF|ltUckBuWg{AgnFpYqwDpbEefChg%40bvE{NliIem%40be%40))',
+	'arfima2':'con-precio-hasta_155000,metros-cuadrados-mas-de_60/?shape=((cz{uF|ltUckBuWg{AgnFpYqwDpbEefChg%40bvE{NliIem%40be%40))'}
 	parser = argparse.ArgumentParser(description='Scrapeo idealista')
 	# parser.add_argument('transaccion', help="Tipo de transaccion a buscar", choices=['venta', 'alquiler'])
 	# parser.add_argument('tipologia', help='Tipologia a buscar', choices=['viviendas'])
-	parser.add_argument('--zona', help='Zona a buscar', default='arfima')#'oviedo-asturias')
+	parser.add_argument('--zona', help='Zona a buscar', default='arfima2')#'oviedo-asturias')
 	parser.add_argument('--full', help='Busqueda superficial o detalle', default=True)
 	args = parser.parse_args()
 	# import pdb; pdb.set_trace()
