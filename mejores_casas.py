@@ -6,8 +6,13 @@
 
 import urllib.request
 import os, sys, time
+from datetime import datetime
 
-blacklist = ['92648039', '92561450', '89928575']
+blacklist = ['92648039', '92561450', '89928575', '94120994', '88780582', '93615963', '94584179']
+
+def date2day():
+	now = datetime.now()
+	return '%02d%s%02d-%02d:%02d'%(now.year%100, 'FGHJKMNQUVXZ'[now.month-1], now.day, now.hour, now.minute)
 
 def chachicidad(casa):
 	px = int(casa['price'])
@@ -46,6 +51,11 @@ def generate_report(objetivo = 'arfima2'):
 	casas = get_saved_houses('VillazScraper/%s.csv'%objetivo)
 	best = sorted(casas.keys(), key = lambda x: chachicidad(casas[x]))
 	best = [el for el in best if el not in blacklist]
+	if not os.path.exists(objetivo+'history/'):
+		os.mkdir(objetivo+'history/')
+	f = open(objetivo+'history/'+date2day()+'.txt', 'w')
+	f.write('\n'.join([el+'\t'+str(casas[el]['price']) for el in best]))
+	f.close()
 	f = open('template.tex', 'r')
 	txt = f.read()
 	f.close()
@@ -54,8 +64,8 @@ def generate_report(objetivo = 'arfima2'):
 	lineas = ''
 	parse_images(objetivo, best[:10])
 	for code in best[:10]:
-		lineas = lineas + '%s & %s & %s & %.2f & %s \\\\\\hline\n'%(code, casas[code]['price'], casas[code]['area'], chachicidad(casas[code]), casas[code]['barrio'])
-		print (chachicidad(casas[code]), casas[code])
+		lineas = lineas + '\\hyperlink{casa%s}{%s} & %s & %s & %.2f & %s \\\\\\hline\n'%(code, code, casas[code]['price'], casas[code]['area'], chachicidad(casas[code]), casas[code]['barrio'])
+		# print (chachicidad(casas[code]), casas[code])
 	txt = txt[:x] + lineas + txt[x:]
 	x = txt.index('%% REPORTE DE CADA CASA')
 	y = txt.index('%% FIN DEL REPORTE DE CADA CASA')
@@ -66,7 +76,6 @@ def generate_report(objetivo = 'arfima2'):
 		if len(casas[code]['address']) < 3:
 			casas[code]['address'] = '[...]'
 		pagina = reportecillo
-		pagina = pagina.replace('92058112', code)
 		pagina = pagina.replace('Direccion', casas[code]['address'])
 		pagina = pagina.replace('Barrio', casas[code]['barrio'])
 		pagina = pagina.replace('Distrito', casas[code]['distrito'])
@@ -74,6 +83,7 @@ def generate_report(objetivo = 'arfima2'):
 		pagina = pagina.replace('789', casas[code]['area'])
 		pagina = pagina.replace('4321', '%.2f'%chachicidad(casas[code]))
 		pagina = pagina.replace('Esta kelly es la puta hostia!', casas[code]['anuncio'])
+		pagina = pagina.replace('92058112', code)
 		for a,b,c in os.walk('%s/%s'%(objetivo,code)):
 			pass
 		n_images = len(c)
@@ -91,6 +101,7 @@ def generate_report(objetivo = 'arfima2'):
 	f.close()
 
 if __name__ == "__main__":
+	print (date2day())
 	generate_report(objetivo = 'arfima2')
 
 

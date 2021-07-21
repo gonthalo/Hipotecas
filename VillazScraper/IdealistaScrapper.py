@@ -18,7 +18,7 @@ import time, sys, os
 #                       ╚═╗│  ├┬┘├─┤├─┘├┤ ├┬┘   ║ │ │├┤ ├─┤│  │└─┐ │ ├─┤
 #                       ╚═╝└─┘┴└─┴ ┴┴  └─┘┴└─   ╩ ┴─┘└─┘┴ ┴┴─┘┴└─┘ ┴ ┴ ┴
 #
-#  python3 IdealistaScrapper.py --zona arfima --full 1
+#  python3 IdealistaScrapper.py --zona arfima2 --full 1
 #
 #
 # Fields in list scraper = price,area,has_elevator,floor,exterior,rooms
@@ -240,8 +240,8 @@ class IdealistaScrapper:
 			txt = txt[txt.find('<p'):]
 			txt = txt[txt.find('>')+1:]
 			anuncio = txt[:txt.find('</p>')]
-			anuncio = anuncio.replace('\n', ' ').replace('<br>', ' ').replace('  ', ' ')
-			print ('Anuncio:',repr(anuncio))
+			anuncio = anuncio.replace('\n', ' ').replace('<br>', ' ').replace('nbsp;', '').replace('  ', ' ')
+			# print ('Anuncio:',repr(anuncio))
 			# import pdb; pdb.set_trace()
 			vivienda.anuncio = anuncio
 
