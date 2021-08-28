@@ -8,7 +8,7 @@ import urllib.request
 import os, sys, time
 from datetime import datetime
 
-blacklist = ['92648039', '92561450', '89928575', '94120994', '88780582', '93615963', '94584179']
+blacklist = ['92648039', '92561450', '89928575', '94120994', '88780582', '93615963', '94584179', '94967410', '95040565', '95045839']
 
 def date2day():
 	now = datetime.now()
@@ -82,7 +82,7 @@ def generate_report(objetivo = 'arfima2'):
 		pagina = pagina.replace('123456', casas[code]['price'])
 		pagina = pagina.replace('789', casas[code]['area'])
 		pagina = pagina.replace('4321', '%.2f'%chachicidad(casas[code]))
-		pagina = pagina.replace('Esta kelly es la puta hostia!', casas[code]['anuncio'])
+		pagina = pagina.replace('Esta kelly es la puta hostia!', casas[code]['anuncio'].replace('&', ''))
 		pagina = pagina.replace('92058112', code)
 		for a,b,c in os.walk('%s/%s'%(objetivo,code)):
 			pass
