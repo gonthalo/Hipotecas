@@ -102,6 +102,6 @@ def generate_report(objetivo = 'arfima2'):
 
 if __name__ == "__main__":
 	print (date2day())
-	generate_report(objetivo = 'arfima2')
+	generate_report(objetivo = 'arfima3')
 
 

@@ -18,7 +18,7 @@ import time, sys, os
 #                       ╚═╗│  ├┬┘├─┤├─┘├┤ ├┬┘   ║ │ │├┤ ├─┤│  │└─┐ │ ├─┤
 #                       ╚═╝└─┘┴└─┴ ┴┴  └─┘┴└─   ╩ ┴─┘└─┘┴ ┴┴─┘┴└─┘ ┴ ┴ ┴
 #
-#  python3 IdealistaScrapper.py --zona arfima2 --full 1
+#  python3 IdealistaScrapper.py --zona arfima3 --full 1
 #
 #
 # Fields in list scraper = price,area,has_elevator,floor,exterior,rooms
@@ -89,8 +89,8 @@ class IdealistaScrapper:
 						if entry[key] != entry[key]:
 							entry[key] = ''
 						entry[key] = str(entry[key])
-						if entry[key] != 'None' and entry[key] != houses[code][key]:
-							print ('Updating data in house', code, ':   ', key, 'is now', entry[key])
+						if entry[key] not in {'None', houses[code][key], ''}:
+							print ('Updating data in house', code, ':   ', key, 'is now', repr(entry[key]), 'before', repr(houses[code][key]))
 							houses[code][key] = entry[key]
 					continue
 				print ('found new house:', code)
@@ -271,7 +271,9 @@ if __name__ == '__main__':
 	# xaux.click()
 	#https://www.idealista.com/areas/venta-viviendas/con-precio-hasta_150000,metros-cuadrados-mas-de_60/?shape=%28%28cz%7BuF%7CltUckBuWg%7BAgnFpYqwDpbEefChg%40bvE%7BNliIem%40be%40%29%29
 	dic = {'arfima':'con-precio-hasta_150000,metros-cuadrados-mas-de_60/?shape=((cz{uF|ltUckBuWg{AgnFpYqwDpbEefChg%40bvE{NliIem%40be%40))',
-	'arfima2':'con-precio-hasta_155000,metros-cuadrados-mas-de_60/?shape=((cz{uF|ltUckBuWg{AgnFpYqwDpbEefChg%40bvE{NliIem%40be%40))'}
+	'arfima2':'con-precio-hasta_155000,metros-cuadrados-mas-de_60/?shape=((cz{uF|ltUckBuWg{AgnFpYqwDpbEefChg%40bvE{NliIem%40be%40))',
+	'arfima3':'con-precio-hasta_155000,metros-cuadrados-mas-de_60/?shape=((yy{uFdlsUgs%40iDggA}aAmk%40ctC`WgqBr`Dcm%40fpAakClU|kB}aAllB~f%40zkB}sAvsAqGxlB))'}
+	#          con-precio-hasta_155000,metros-cuadrados-mas-de_60/?shape=%28%28yy%7BuFdlsUgs%40iDggA%7DaAmk%40ctC%60WgqBr%60Dcm%40fpAakClU%7CkB%7DaAllB%7Ef%40zkB%7DsAvsAqGxlB%29%29
 	parser = argparse.ArgumentParser(description='Scrapeo idealista')
 	# parser.add_argument('transaccion', help="Tipo de transaccion a buscar", choices=['venta', 'alquiler'])
 	# parser.add_argument('tipologia', help='Tipologia a buscar', choices=['viviendas'])
